@@ -16,6 +16,5 @@ export default function TodoList({$target, intialState}) {
             </ul>
         `
     }
-
-
+    this.render()
 }
