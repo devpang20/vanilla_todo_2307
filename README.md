@@ -16,5 +16,5 @@ index.html
 - [x] App.js 에서 Header.js TodoForm.js TodoList.js 가 import 되어한다.
 - [x] Header.js 는 text 요소를 출력한다.
 - [x] TodoForm.js, TodoList.js 요구사항에 맞게 구조를 만든다.
-- [ ] TodoForm.js는 할 일을 적고 입력을 누르면 할일이 추가된다.
-- [ ] TodoList.js는 입력 받은 할일을 리스트로 출력한다.
+- [x] TodoForm.js는 할 일을 적고 입력을 누르면 할일이 추가된다.
+- [x] TodoList.js는 입력 받은 할일을 리스트로 출력한다.
