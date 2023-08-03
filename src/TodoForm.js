@@ -14,8 +14,6 @@ export default function TodoForm({$target, onSubmit}) {
             const $input = $form.querySelector('input');
             const text = $input.value;
 
-            console.log(text)
-
             if (text.length > 1) {
                 $input.value = '';
                 onSubmit(text);
