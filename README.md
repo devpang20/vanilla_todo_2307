@@ -13,7 +13,7 @@ index.html
 /src/TodoList.js
 /src/storage.js
 ## TODO
-- [ ] App.js 에서 Header.js TodoForm.js TodoList.js 가 import 되어한다.
-- [ ] Header.js 는 text 요소를 출력한다.
+- [x] App.js 에서 Header.js TodoForm.js TodoList.js 가 import 되어한다.
+- [x] Header.js 는 text 요소를 출력한다.
 - [ ] TodoForm.js 는 input box 가 있고 할 일을 적고 입력을 누르면 할일이 추가된다.
 - [ ] TodoList.js 는 입력 받은 할일을 리스트로 출력한다.
