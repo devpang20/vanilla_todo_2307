@@ -15,20 +15,27 @@ export default function App({$target}) {
         }
     ]);
 
+    let lastId = intialState[intialState.length - 1].id;
+
     // 할일 등록 메서드
     const onSubmit = (text) => {
-        const nextState = [...todoList.state, text];
+        const nextState = todoList.state.concat([
+            {
+                id: lastId + 1,
+                text,
+            }
+        ])
+        lastId++;
         todoList.setState(nextState);
-
         setItem('todos', JSON.stringify(nextState));
     }
 
+    // 할일 삭제 메서드
     const onDelete = (id) => {
         const nextState = todoList.state.filter(todo => todo.id !== id);
         todoList.setState(nextState);
-      
     }
-    
+
     new Header({$target});
 
     new TodoForm({
